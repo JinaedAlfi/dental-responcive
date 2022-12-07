@@ -1,0 +1,59 @@
+@media(max-width:575px){
+    .icon{
+        display: none;
+    }
+    .main-logo{
+        display: inline-block;
+    }
+    .main-logo img{
+        width: 200px;
+    }
+    .btn-appointment{
+        display: none;
+    }
+    .baner-img{
+        display: none;
+    }
+    .baner-text{
+        text-align: center;
+        min-height: 40vh;
+        align-items: flex-end;
+    }
+    .walcome-img{
+        position: inherit;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .welcome-text{
+          text-align: center;
+    }
+    .welcome-text h2{
+        margin: 0;
+    }
+    .welcome-text p{
+        margin-bottom: 20px;
+    }
+    .welcome-content{
+        margin-bottom: 15px;
+    }
+    .price-table{
+        margin-bottom: 30px;
+    }
+    .client_img .owl-nav .owl-prev {
+        left: -15%;
+    }
+    .client_img .owl-nav .owl-next {
+        right: -15%;
+    }
+    .client_img{
+        width: 80%;
+        margin: auto;
+    }
+    .follow {
+        justify-content: center;
+        padding: 0 !important;
+    }
+    
+    
+}
